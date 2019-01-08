@@ -3,4 +3,4 @@ language: node_js
 node_js: 
   - iojs
   - "7"
-script: "bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --blackduck.hub.url=https://ec2-34-227-49-164.compute-1.amazonaws.com --blackduck.hub.api.token='MDQ4NDlkMjUtOGRjZC00NmQ0LWI3M2MtNDI3N2RmZDllNzQwOjE0ZjM0ZWU1LTNjNjYtNGJiZi1iOWU2LTEzNjc0YTBhNTY0Mg==' --blackduck.hub.trust.cert=true --detect.policy.check=true --detect.project.name='pgreen/vidly-travis-test'
+script: "bash <(curl -s https://blackducksoftware.github.io/hub-detect/hub-detect.sh) --blackduck.hub.url=https://ec2-34-227-49-164.compute-1.amazonaws.com --blackduck.hub.api.token='MDQ4NDlkMjUtOGRjZC00NmQ0LWI3M2MtNDI3N2RmZDllNzQwOjE0ZjM0ZWU1LTNjNjYtNGJiZi1iOWU2LTEzNjc0YTBhNTY0Mg==' --blackduck.hub.trust.cert=true --detect.policy.check=true --detect.project.name='pgreen/vidly-travis-test'"
